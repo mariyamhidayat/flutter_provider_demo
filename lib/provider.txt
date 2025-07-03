@@ -1,0 +1,21 @@
+stateless:
+
+stateless code its tree form
+its immutable jo ak dafa state pe build jo gaay dubara change nhi kr skte
+variable cannot change value in stateless which means jo cheez ak dafa build ho jaay aap os ko change nhi kr skte
+
+stateful:
+
+state full widget its user interactive and mutable
+use setstate() for update
+rebuild all widgets its disadvantage because its time consuming if you want only change one widget buts its rebuild all widgets so pressure the RAM snd some time its hang
+so isliye hum state management use krte hn.
+
+why use provider:
+
+Provider is used in Flutter for state management. It helps you:
+Share data across widgets easily
+Listen to changes and update UI automatically
+
+Keep code clean and maintainable
+provider
